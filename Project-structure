@@ -1,0 +1,13 @@
+doodle-recognizer/
+├── app/
+│   ├── app.py
+│   ├── model/
+│   │   └── doodle_model.h5
+│   ├── static/
+│   │   └── script.js
+│   ├── templates/
+│   │   └── index.html
+│   ├── utils.py
+│   └── requirements.txt
+├── Dockerfile
+└── docker-compose.yml
