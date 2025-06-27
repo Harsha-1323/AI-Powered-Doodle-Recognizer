@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doodle Recognizer</title>
+</head>
+<body>
+    <h2>Draw something!</h2>
+    <canvas id="canvas" width="280" height="280" style="border:1px solid #000;"></canvas><br>
+    <button onclick="clearCanvas()">Clear</button>
+    <button onclick="submitCanvas()">Predict</button>
+    <p><strong>Prediction:</strong> <span id="result">?</span></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
